@@ -12,7 +12,7 @@ function Banner() {
       setImg(snapshot.docs.map((doc)=>(doc.data())))
     })
     
-    
+ 
   }, []);
   return (
   <>

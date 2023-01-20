@@ -12,6 +12,7 @@ import PrivacyPolicy from './componets/pages/PrivacyPolicy';
 import TermsConditions from './componets/pages/TermsConditions';
 import FAQs from './componets/pages/FAQs';
 import PaymentMethod from './componets/pages/PaymentMethod';
+import './App.css'
 
 const App = () => {
   return (

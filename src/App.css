@@ -1,0 +1,66 @@
+
+  
+  .animate-charcter
+  {
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #460969 29%,
+      #ffffff 67%,
+      #022669 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+ 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 200%;
+       
+  }
+ .heder{
+  background-color: orange;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+ padding:20px;
+  
+ }
+
+.sett{
+margin-left: 20px;
+}
+.inputs{
+margin: 5px;
+width:260px;
+margin:6px;
+border-radius: 15px;
+background-color: white;
+border: 1px solid;;
+outline: none;
+}
+  .title{
+    font-weight: 700;
+    margin-right: 30px;
+   
+  }
+  @keyframes textclip {
+    to {
+      background-position: 800% center;
+    }
+  }
+  .searchdiv{
+    height:33px;
+    width: 38px;
+    margin-left: 238px;
+    margin-top: -37px;
+  }
+  .searchimg{
+    height: 100%;
+    width: 100%;
+  }

@@ -1,66 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import { Typewriter } from 'react-simple-typewriter'
+
+
 
 const Header = () => {
-
   return (
     <>
-      <Head>
-          <Logo>
-            <img className="img" src="https://res.cloudinary.com/clennation/image/upload/v1663896738/new_logo_mnpose.png" />
-          </Logo>
-          <Title>
-            <h1 className="headline">
-            Clean-Nation
-          </h1>
-          </Title>
-      </Head>
-      
+
+<div class=" heder container-fluid">
+  <div class=" sett row">
+    <div class="col-lg-6">
+    <h3 className=" title animate-charcter">Cleannation.in</h3>
+    </div>
+    <div class="col-lg-6">
+    <input className="inputs" /><div className="searchdiv"><a href=""><img 
+     className="searchimg"
+      src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-25.png"/></a></div>
+    </div>
+    
+  </div>
+</div>
     </>
   );
 };
 
 export default Header;
-const Head = styled.div`
-    background-color: orange;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-wrap:wrap;
-    height:120px;
 
-`
-const Logo = styled.div`
-    >img {
-        width:170px;
-        height:100px;
-
-    }
-    @media screen and (max-width:780px) {
-      >img {
-        width:120px;
-        height:80px;
-        position: relative;
-        
-    }
-   }
-`
-const Title = styled.div`
-    >.headline {
-      text-align:center;
-      align-items:center;
-      line-height:120px;
-      font-size:40px;
-      color:black; 
-    }
-    @media screen and (max-width:780px) {
-      .headline {
-        line-height:50px;
-        font-size:26px;
-        color:black;
-        position:relative;
-        right: 16px;
-      }
-    }
-`
